@@ -1,0 +1,16 @@
+<?php
+
+class Bootstrap
+{
+    public $url;
+    public $routes;
+
+    public function __construct($url, $routes){
+        $this->url = $url;
+        $this->routes = $routes;
+    }
+
+    public function route(){
+
+    }
+}
